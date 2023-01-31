@@ -1,0 +1,20 @@
+.btn {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0;
+    color: black;
+    padding: 5px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: "Georgia", Georgia, 'Times New Roman', Times, serif;
+    transition-duration: 0.4s;
+    border-right: 1.5px solid #CD7F32;
+   
+      
+  }
+  .btn:hover {
+    background-color: #ffffff;
+    color: green;
+  }
