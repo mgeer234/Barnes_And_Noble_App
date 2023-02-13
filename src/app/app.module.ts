@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './Navigation/top-nav-bar/top-nav-bar.component';
 import { MidNavBarComponent } from './Navigation/mid-nav-bar/mid-nav-bar.component';
 import { BottomNavBarComponent } from './Navigation/bottom-nav-bar/bottom-nav-bar.component';
+import { TopCarouselComponent } from './Carousel/top-carousel/top-carousel.component';
+import { BookCardsComponentComponent } from './book-cards-component/book-cards-component.component';
+import { MultiItemCarouselComponentComponent } from './multi-item-carousel-component/multi-item-carousel-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     MidNavBarComponent,
-    BottomNavBarComponent
+    BottomNavBarComponent,
+    TopCarouselComponent,
+    BookCardsComponentComponent,
+    MultiItemCarouselComponentComponent
   ],
   imports: [
     BrowserModule,

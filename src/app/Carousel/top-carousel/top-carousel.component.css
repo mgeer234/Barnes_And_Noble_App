@@ -1,0 +1,14 @@
+.my-indicator{
+    background-color: lightgray;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    
+}
+.my-indicator.active{
+    background-color: black;
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    
+}
