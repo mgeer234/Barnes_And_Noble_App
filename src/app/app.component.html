@@ -3,4 +3,23 @@
 <app-bottom-nav-bar></app-bottom-nav-bar>
 <app-top-carousel></app-top-carousel>
 <app-multi-item-carousel-component></app-multi-item-carousel-component>
-<app-book-cards-component></app-book-cards-component>
+<h2>Fiction Favorites</h2>
+<div class="d-flex p-2">
+    <div class="card-main" style="width: 27rem;">
+        <img src="./assets\Cards\houseofeve.PNG" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">The House of Eve</h5>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p class="card-text-author">Sadeqa Johnson</p></li>
+            <li class="list-group-item"><img src="./assets\Cards\stars.png" class="card-img-top" alt="..."width="60" height="60"></li>
+            </ul>
+        <p class="card-text-main">This luminous novel is an exploration of what womanhood, sacrifice, and longing looked like in pre-Roe America for young black women. It is a story about the price women pay for love, and the choices no one should have to make.</p>
+        </div>
+    </div>
+     <div class="row row-cols-4 g-4"> 
+        <div *ngFor="let item of products">
+            <app-book-cards-component class="nx-2" img={{item.img}} description={{item.description}} author={{item.author}} img2= {{item.img2}} ></app-book-cards-component>
+        </div>
+    </div>
+</div>
+
