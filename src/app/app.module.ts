@@ -9,6 +9,9 @@ import { BottomNavBarComponent } from './Navigation/bottom-nav-bar/bottom-nav-ba
 import { TopCarouselComponent } from './Carousel/top-carousel/top-carousel.component';
 import { BookCardsComponentComponent } from './book-cards-component/book-cards-component.component';
 import { MultiItemCarouselComponentComponent } from './multi-item-carousel-component/multi-item-carousel-component.component';
+import { HomeLayoutComponent } from './Layouts/home-layout/home-layout.component';
+import { SecondLayoutComponent } from './Layouts/second-layout/second-layout.component';
+import { LargeBookCardComponent } from './large-book-card/large-book-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { MultiItemCarouselComponentComponent } from './multi-item-carousel-compo
     BottomNavBarComponent,
     TopCarouselComponent,
     BookCardsComponentComponent,
-    MultiItemCarouselComponentComponent
+    MultiItemCarouselComponentComponent,
+    HomeLayoutComponent,
+    SecondLayoutComponent,
+    LargeBookCardComponent
   ],
   imports: [
     BrowserModule,
