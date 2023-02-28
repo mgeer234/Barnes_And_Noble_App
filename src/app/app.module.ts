@@ -12,6 +12,10 @@ import { MultiItemCarouselComponentComponent } from './multi-item-carousel-compo
 import { HomeLayoutComponent } from './Layouts/home-layout/home-layout.component';
 import { SecondLayoutComponent } from './Layouts/second-layout/second-layout.component';
 import { LargeBookCardComponent } from './large-book-card/large-book-card.component';
+import { ThirdLayoutComponent } from './Layouts/third-layout/third-layout.component';
+import { FourthLayoutComponent } from './Layouts/fourth-layout/fourth-layout.component';
+import { FifthLayoutComponent } from './Layouts/fifth-layout/fifth-layout.component';
+import { SixthLayoutComponent } from './Layouts/sixth-layout/sixth-layout.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { LargeBookCardComponent } from './large-book-card/large-book-card.compon
     MultiItemCarouselComponentComponent,
     HomeLayoutComponent,
     SecondLayoutComponent,
-    LargeBookCardComponent
+    LargeBookCardComponent,
+    ThirdLayoutComponent,
+    FourthLayoutComponent,
+    FifthLayoutComponent,
+    SixthLayoutComponent
   ],
   imports: [
     BrowserModule,

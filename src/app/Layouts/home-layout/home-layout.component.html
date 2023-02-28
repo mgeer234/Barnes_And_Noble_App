@@ -1,1 +1,12 @@
-<p>home-layout works!</p>
+<app-top-carousel></app-top-carousel>
+<app-multi-item-carousel-component></app-multi-item-carousel-component>
+<h2></h2>
+<h2>Fiction Favorites</h2>
+<div class="d-flex p-2">
+    <app-large-book-card></app-large-book-card>
+     <div class="row row-cols-4 g-4"> 
+        <div *ngFor="let item of products">
+            <app-book-cards-component class="nx-2" img={{item.img}} description={{item.description}} author={{item.author}} img2= {{item.img2}}></app-book-cards-component>
+        </div>
+    </div>
+</div>

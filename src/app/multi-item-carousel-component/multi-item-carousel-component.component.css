@@ -1,20 +1,11 @@
 
     .carousel-inner {
-      padding: 2em;
+      overflow-x: visible;
     }
     .card {
-      margin: 0 0.5em;
       border: none;
     }
-    .carousel-control-prev,
-    .carousel-control-next {
-      background-color: #ffffff;
-      width: 6vh;
-      height: 6vh;
-      border-radius: 50%;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+   
     @media (min-width: 768px) {
       .carousel-item {
         margin-left: auto;
@@ -41,3 +32,5 @@
         height: 17em;
       }
     }
+ 
+ 

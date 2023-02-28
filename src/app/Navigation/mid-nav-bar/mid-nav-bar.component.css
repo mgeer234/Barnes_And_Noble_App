@@ -4,7 +4,7 @@ body{
     font-weight: 300;
    }
 
-   a .nav-link-dropdown-toggle{
+   a.nav-link-dropdown-toggle{
     color: black;
     text-align: center;
     padding: 14px 16px;

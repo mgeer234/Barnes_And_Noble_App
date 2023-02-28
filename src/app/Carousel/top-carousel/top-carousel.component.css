@@ -12,3 +12,10 @@
     border-radius: 50%;
     
 }
+.carousel-control-prev {
+    margin-left: 1%;
+}
+
+.carousel-control-next {
+    margin-right: 1%;
+}
