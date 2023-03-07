@@ -23,11 +23,11 @@ img{
     outline:0 !important;
     box-shadow: none; }
 
-  .dropbtn {
+  .dropdown {
     background-color: #ffffff;
     color: #5A5A5A;
     padding: 10px 15px;
-    font-size: 12px;
+    font-size: 15px;
     border: none;
     cursor: pointer;
   }
@@ -64,38 +64,6 @@ img{
   .dropdown:hover .dropdown-menu{
     display: block;
   }
-/*   ul.dropdown-menu {
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  .dropdown-menu {
-    display: none;
-    position: relative;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-menu a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    font-size: 12px;
-    display: block;
-    text-align: left;
-    
-  }
-  
-  .dropdown-menu a:hover {background-color: lightgray;}
-  
-  .dropdown:hover .dropdown-menu{
-    display: block;
-  } */
 
   .btn-link-outline{
     background-color: #314850;

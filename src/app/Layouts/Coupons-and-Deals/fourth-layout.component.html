@@ -1,0 +1,37 @@
+<div id="container1" class="d-flex justify-content-center">
+    <p id="pinkribbon" style="text-align:center">Buy One, Get One 50% Off For All Ages</p>
+</div>
+<div id="container2" class="d-flex justify-content-center">
+    <p id="ribbon" style="text-align:center">Free Shipping on Orders of $40 or More</p>
+</div>
+<h1 id="header" style="text-align:center">Coupons and Deals</h1>
+<p id="page" style="text-align:center">Explore current Barnes & Noble featured coupons, deals, sales, and promotions to discover great savings!</p>
+
+
+<div id="container3" class="container justify-content-evenly">
+    <div class="row">
+        <div class="col">
+            <p id="bluefirst" style="text-align:center">$20 Off Nook GlowLight 4e</p>
+            <p id="bluesecond" style="text-align:center">Online & In Stores</p>
+            <p id="bluethird" style="text-align:center">Shop Now></p>
+        </div> 
+        <div class="col">
+            <p id="bluefirst" style="text-align:center">30% Off Hardcover Bestsellers</p>
+            <p id="bluesecond" style="text-align:center">Online & In Stores</p>
+            <p id="bluethird" style="text-align:center">Shop Now></p>
+        </div>
+    </div>
+</div>
+<h2 id="divider" style="text-align:center">Buy 1, Get 1 50% Off Books for All Ages</h2>
+<app-books-carousel></app-books-carousel>
+<div class="d-flex justify-content-center">
+        <div class="row row-cols-2"> 
+            <div *ngFor="let item of products">
+                <div class="col">
+                    <app-cards-coupons class="nx-3" img={{item.img}} description={{item.description}} date={{item.date}} category= {{item.category}}></app-cards-coupons>
+                </div>
+            </div>
+        </div>
+</div>
+<app-footer-coupons></app-footer-coupons>
+ 

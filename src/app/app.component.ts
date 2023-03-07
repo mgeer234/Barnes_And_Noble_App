@@ -17,4 +17,5 @@ export class AppComponent {
       this.products.push(item);
     }
   }
+  
 }

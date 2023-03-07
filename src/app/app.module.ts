@@ -10,12 +10,15 @@ import { TopCarouselComponent } from './Carousel/top-carousel/top-carousel.compo
 import { BookCardsComponentComponent } from './book-cards-component/book-cards-component.component';
 import { MultiItemCarouselComponentComponent } from './multi-item-carousel-component/multi-item-carousel-component.component';
 import { HomeLayoutComponent } from './Layouts/home-layout/home-layout.component';
-import { SecondLayoutComponent } from './Layouts/second-layout/second-layout.component';
+import { SecondLayoutComponent } from './Layouts/Blog-and-Podcast/second-layout.component';
 import { LargeBookCardComponent } from './large-book-card/large-book-card.component';
-import { ThirdLayoutComponent } from './Layouts/third-layout/third-layout.component';
-import { FourthLayoutComponent } from './Layouts/fourth-layout/fourth-layout.component';
-import { FifthLayoutComponent } from './Layouts/fifth-layout/fifth-layout.component';
-import { SixthLayoutComponent } from './Layouts/sixth-layout/sixth-layout.component';
+import { ThirdLayoutComponent } from './Layouts/Membership/third-layout.component';
+import { FourthLayoutComponent } from './Layouts/Coupons-and-Deals/fourth-layout.component';
+import { FifthLayoutComponent } from './Layouts/Bestsellers/fifth-layout.component';
+import { SixthLayoutComponent } from './Layouts/Gift-cards/sixth-layout.component';
+import { BooksCarouselComponent } from './Layouts/Coupons-and-Deals/books-carousel/books-carousel.component';
+import { CardsCouponsComponent } from './Layouts/Coupons-and-Deals/cards-coupons/cards-coupons.component';
+import { FooterCouponsComponent } from './Layouts/Coupons-and-Deals/footer-coupons/footer-coupons.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { SixthLayoutComponent } from './Layouts/sixth-layout/sixth-layout.compon
     ThirdLayoutComponent,
     FourthLayoutComponent,
     FifthLayoutComponent,
-    SixthLayoutComponent
+    SixthLayoutComponent,
+    BooksCarouselComponent,
+    CardsCouponsComponent,
+    FooterCouponsComponent
   ],
   imports: [
     BrowserModule,
