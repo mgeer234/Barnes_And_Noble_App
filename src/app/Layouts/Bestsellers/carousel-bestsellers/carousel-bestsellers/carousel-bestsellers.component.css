@@ -1,0 +1,21 @@
+.carousel{
+    margin-left:250px;
+    margin-right:50px;
+
+}
+h1{
+    font-size: 35px;
+    font-family: ui-serif;
+}
+h2{
+    font-size: 25px;
+    font-family: ui-serif;
+    margin-top: 5%;
+}
+.carousel-control-prev {
+    margin-left: 0%;
+}
+
+.carousel-control-next {
+    margin-right: 0%;
+}

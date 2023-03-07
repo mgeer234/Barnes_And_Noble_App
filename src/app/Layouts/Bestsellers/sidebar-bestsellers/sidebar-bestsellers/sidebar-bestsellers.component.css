@@ -1,0 +1,20 @@
+ul.sidebar{
+    border-right-color: black;
+    z-index: 100; 
+    margin-right: 100px;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 100%;
+    overflow-y:scroll;
+    float: left;
+}
+li.nav-item{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+p{
+    font-weight: 600;
+}

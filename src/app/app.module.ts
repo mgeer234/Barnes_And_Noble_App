@@ -19,6 +19,9 @@ import { SixthLayoutComponent } from './Layouts/Gift-cards/sixth-layout.componen
 import { BooksCarouselComponent } from './Layouts/Coupons-and-Deals/books-carousel/books-carousel.component';
 import { CardsCouponsComponent } from './Layouts/Coupons-and-Deals/cards-coupons/cards-coupons.component';
 import { FooterCouponsComponent } from './Layouts/Coupons-and-Deals/footer-coupons/footer-coupons.component';
+import { CarouselBestsellersComponent } from './Layouts/Bestsellers/carousel-bestsellers/carousel-bestsellers/carousel-bestsellers.component';
+import { SidebarBestsellersComponent } from './Layouts/Bestsellers/sidebar-bestsellers/sidebar-bestsellers/sidebar-bestsellers.component';
+import { FootbarBestsellersComponent } from './Layouts/Bestsellers/footbar-bestsellers/footbar-bestsellers/footbar-bestsellers.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { FooterCouponsComponent } from './Layouts/Coupons-and-Deals/footer-coupo
     SixthLayoutComponent,
     BooksCarouselComponent,
     CardsCouponsComponent,
-    FooterCouponsComponent
+    FooterCouponsComponent,
+    CarouselBestsellersComponent,
+    SidebarBestsellersComponent,
+    FootbarBestsellersComponent
   ],
   imports: [
     BrowserModule,
