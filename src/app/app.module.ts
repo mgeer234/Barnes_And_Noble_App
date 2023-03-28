@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './Navigation/top-nav-bar/top-nav-bar.component';
@@ -22,6 +21,8 @@ import { FooterCouponsComponent } from './Layouts/Coupons-and-Deals/footer-coupo
 import { CarouselBestsellersComponent } from './Layouts/Bestsellers/carousel-bestsellers/carousel-bestsellers/carousel-bestsellers.component';
 import { SidebarBestsellersComponent } from './Layouts/Bestsellers/sidebar-bestsellers/sidebar-bestsellers/sidebar-bestsellers.component';
 import { FootbarBestsellersComponent } from './Layouts/Bestsellers/footbar-bestsellers/footbar-bestsellers/footbar-bestsellers.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './Navigation/user-info/user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -44,11 +45,13 @@ import { FootbarBestsellersComponent } from './Layouts/Bestsellers/footbar-bests
     FooterCouponsComponent,
     CarouselBestsellersComponent,
     SidebarBestsellersComponent,
-    FootbarBestsellersComponent
+    FootbarBestsellersComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
