@@ -91,6 +91,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "kitchen-sink:build:production",
+            "firebaseProject": "barnes-and-noble-app",
+            "firebaseHostingSite": "barnes-and-noble-app"
+          }
         }
       }
     }

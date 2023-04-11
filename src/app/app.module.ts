@@ -23,6 +23,10 @@ import { SidebarBestsellersComponent } from './Layouts/Bestsellers/sidebar-bests
 import { FootbarBestsellersComponent } from './Layouts/Bestsellers/footbar-bestsellers/footbar-bestsellers/footbar-bestsellers.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './Navigation/user-info/user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -51,7 +55,7 @@ import { UserInfoComponent } from './Navigation/user-info/user-info/user-info.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

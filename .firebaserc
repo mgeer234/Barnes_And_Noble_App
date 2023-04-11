@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "barnes-and-noble-app"
+  },
+  "targets": {
+    "barnes-and-noble-app": {
+      "hosting": {
+        "kitchen-sink": [
+          "barnes-and-noble-app"
+        ]
+      }
+    }
   }
 }
