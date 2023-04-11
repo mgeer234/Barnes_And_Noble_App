@@ -51,7 +51,7 @@ import { UserInfoComponent } from './Navigation/user-info/user-info/user-info.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
