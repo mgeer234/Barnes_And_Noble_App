@@ -6,6 +6,7 @@ import { ThirdLayoutComponent } from './Layouts/Membership/third-layout.componen
 import { FourthLayoutComponent } from './Layouts/Coupons-and-Deals/fourth-layout.component';
 import { FifthLayoutComponent } from './Layouts/Bestsellers/fifth-layout.component';
 import { SixthLayoutComponent } from './Layouts/Gift-cards/sixth-layout.component';
+import { AddProductComponent } from './add-product/add-product.component';
 
 const routes: Routes = [{
   path: '',
@@ -30,7 +31,12 @@ const routes: Routes = [{
 {
   path: 'giftcards',
 component: SixthLayoutComponent
-}];
+},
+{
+  path: 'admin',
+component: AddProductComponent
+}
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -1,7 +1,17 @@
 export const environment = {
-    production: true
+  firebase: {
+    projectId: 'barnes-and-noble-app',
+    appId: '1:138153423077:web:5b7efbaa32e15d7465240c',
+    databaseURL: 'https://barnes-and-noble-app-default-rtdb.firebaseio.com',
+    storageBucket: 'barnes-and-noble-app.appspot.com',
+    apiKey: 'AIzaSyAijMjETeJpqV0II3L122JQmVo2LP7g5SI',
+    authDomain: 'barnes-and-noble-app.firebaseapp.com',
+    messagingSenderId: '138153423077',
+    measurementId: 'G-RZ254PEM6L',
+  },
+  production: true
   };
-// Import the functions you need from the SDKs you need
+/* // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 // TODO: Add SDKs for Firebase products that you want to use
@@ -22,4 +32,4 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const analytics = getAnalytics(app); */

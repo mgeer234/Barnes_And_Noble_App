@@ -1,10 +1,10 @@
 {
   "hosting": {
-    "public": "dist/kitchen-sink",
+    "public": "dist\\kitchen-sink",
     "rewrites":[
       {
-          "source": "**",
-          "destination": "/index.html"
+        "source": "**",
+        "destination":"/index.html"
       }
     ],
     "ignore": [

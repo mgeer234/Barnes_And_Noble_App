@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #postform="ngForm"(ngSubmit)="addItem(postform.value)">
+                <div class="input-group">
+                    <span class="input-group-text">Image Path</span>
+                    <input type="text" class="form-control" ngModel name="img">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Title</span>
+                    <input type="text" class="form-control" ngModel name="description">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Author</span>
+                    <input type="text" class="form-control"ngModel name="author">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text">Image Path</span>
+                    <input type="text" class="form-control"ngModel name="img2">
+                </div>
+
+                <button class="btn btn-dark" type="submit">Add Card</button>
+            </form>
+        </div>
+    </div>
+</div>
