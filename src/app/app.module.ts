@@ -30,6 +30,7 @@ import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { AngularFireModule } from '@angular/fire/compat';
 import { AddProductComponent } from './add-product/add-product.component';
 import { FormsModule } from '@angular/forms';
+import { AuthComponent } from './auth/auth/auth.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { FormsModule } from '@angular/forms';
     SidebarBestsellersComponent,
     FootbarBestsellersComponent,
     UserInfoComponent,
-    AddProductComponent
+    AddProductComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,

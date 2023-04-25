@@ -7,6 +7,7 @@ import { FourthLayoutComponent } from './Layouts/Coupons-and-Deals/fourth-layout
 import { FifthLayoutComponent } from './Layouts/Bestsellers/fifth-layout.component';
 import { SixthLayoutComponent } from './Layouts/Gift-cards/sixth-layout.component';
 import { AddProductComponent } from './add-product/add-product.component';
+import { AuthComponent } from './auth/auth/auth.component';
 
 const routes: Routes = [{
   path: '',
@@ -35,7 +36,12 @@ component: SixthLayoutComponent
 {
   path: 'admin',
 component: AddProductComponent
+},
+{
+  path:'auth',
+  component: AuthComponent
 }
+
 ];
 
 @NgModule({
